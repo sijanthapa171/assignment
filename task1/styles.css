@@ -50,16 +50,11 @@ body {
     line-height: 1.5;
 }
 
-.education-item {
-    display: flex;
-    gap: 10px;
-}
-
 .education-box {
     border: 1px solid #000;
     padding: 10px;
-    flex: 1;
     text-align: center;
+    margin: 10px;
 }
 
 .skill-item {
