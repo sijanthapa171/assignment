@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.header {
+    border: 1px solid #000;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 18px;
+    color: #666;
+}
+
+.section {
+    border: 1px solid #000;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.about p {
+    line-height: 1.5;
+}
+
+.education-item {
+    display: flex;
+    gap: 10px;
+}
+
+.education-box {
+    border: 1px solid #000;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+}
+
+.skill-item {
+    border: 1px solid #000;
+    padding: 10px;
+    width: 700px;
+    text-align: center;
+    margin: 10px;
+}
+
+.project-item {
+    border: 1px solid #000;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.contact-item {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    border: 1px solid #000;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
